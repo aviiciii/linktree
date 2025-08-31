@@ -6,11 +6,43 @@
     <title>~ / links</title>
     <link rel="stylesheet" href="style.css">
 
-    <!-- favicon normal-->
     <link rel="icon" href="img/favicon.png" type="image/jpg" >
 
 </head>
 <body>
+    <script>
+        const allLinks = {
+            socials: {
+                github: "https://github.com/aviiciii",
+                linkedin: "https://www.linkedin.com/in/laavesh/",
+                instagram: "https://www.instagram.com/llvssh/"
+            },
+            portfolio: "https://portfolio.lvsh.qzz.io/",
+            utility: {
+                clipboard: "https://clip.lvsh.qzz.io/",
+                linkShortener: "https://short.lvsh.qzz.io/",
+                qrGenerator: "https://qr.lvsh.qzz.io/",
+                notepad: "https://note.lvsh.qzz.io/"
+            },
+            pages: {
+                firstWebpage: "https://pages.lvsh.qzz.io/",
+                googleReplica: "https://aviiciii.github.io/google_search/"
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('github-link').href = allLinks.socials.github;
+            document.getElementById('linkedin-link').href = allLinks.socials.linkedin;
+            document.getElementById('instagram-link').href = allLinks.socials.instagram;
+            document.getElementById('portfolio-link').href = allLinks.portfolio;
+            document.getElementById('clipboard-link').href = allLinks.utility.clipboard;
+            document.getElementById('shortener-link').href = allLinks.utility.linkShortener;
+            document.getElementById('qr-link').href = allLinks.utility.qrGenerator;
+            document.getElementById('notepad-link').href = allLinks.utility.notepad;
+            document.getElementById('webpage-link').href = allLinks.pages.firstWebpage;
+            document.getElementById('google-replica-link').href = allLinks.pages.googleReplica;
+        });
+    </script>
     <section id="about" class="about">
         <div class="logo">
             <img class="logo" src="img/logo.jpg" alt="logo">
@@ -19,104 +51,72 @@
             <h1>aviiciii</h1>
         </div>
         <div class="description">
-            <p>Student Developer &#58;&#41;	</p>
+            <p>Software Dev</p>
         </div>
         <div class="socials">
             <ul class="socials-ul">
-                <!-- github -->
                 <li class="socials-li">
-                    <a class="socials-a" href="https://github.com/aviiciii" target="_blank">
+                    <a id="github-link" class="socials-a" href="#" target="_blank">
                         <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/github--v1.png" alt="github--v1"/>
                     </a>
                 </li>
-                
-                <!-- linkedin -->
+                 
                 <li class="socials-li">
-                    <a class="socials-a" href="https://www.linkedin.com/in/laavesh/" target="_blank">
+                    <a id="linkedin-link" class="socials-a" href="#" target="_blank">
                         <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/linkedin-2--v1.png" alt="linkedin--v1"/>
                     </a>
                 </li>
 
-                <!-- instagram -->
                 <li class="socials-li">
-                    <a class="socials-a" href="https://www.instagram.com/llvssh/" target="_blank">
+                    <a id="instagram-link" class="socials-a" href="#" target="_blank">
                         <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/instagram.png" alt="instagram-new--v1"/>
                     </a>
                 </li>
-
-
-                <!-- add others here -->
-
             </ul>
         </div>
     </section>
 
     <section id="links">
 
-        <!-- Start of a Tab -->
         <div class="link-container">
-            
-            <!-- Start of links -->
             <div class="link-list">
-                <a class="link-a" href="https://portfolio.laavesh.xyz/" target="_blank">
+                <a id="portfolio-link" class="link-a" href="#" target="_blank">
                     My Portfolio
                 </a>
             </div>
         </div>
-        <!-- End of a Tab -->
-
-
-        <!-- Start of a Tab -->
         <div class="link-container">
-            
             <div class="link-header">
                 <h2>Utility</h2>
             </div>
-
-            <!-- Start of links -->
             <div class="link-list">
-                <a class="link-a" href="https://clip.laavesh.xyz/" target="_blank">
+                <a id="clipboard-link" class="link-a" href="#" target="_blank">
                     Clipboard
                 </a>
-
-                <a class="link-a" href="https://short.laavesh.xyz/" target="_blank">
+                <a id="shortener-link" class="link-a" href="#" target="_blank">
                     Link Shortener
                 </a>
-
-                <a class="link-a" href="https://qr.laavesh.xyz/" target="_blank">
+                <a id="qr-link" class="link-a" href="#" target="_blank">
                     QR Generator
                 </a>
-
-                <a class="link-a" href="https://note.laavesh.xyz/" target="_blank">
+                <a id="notepad-link" class="link-a" href="#" target="_blank">
                     Notepad
                 </a>
-
             </div>
         </div>
-        <!-- End of a Tab -->
-
-
         <div class="link-container">
-            
             <div class="link-header">
                 <h2>Pages</h2>
             </div>
-
-            <!-- Start of links -->
             <div class="link-list">
-                <a class="link-a" href="https://pages.laavesh.xyz/" target="_blank">
+                <a id="webpage-link" class="link-a" href="#" target="_blank">
                     First Webpage
                 </a>
-
-                <a class="link-a" href="https://aviiciii.github.io/google_search/" target="_blank">
+                <a id="google-replica-link" class="link-a" href="#" target="_blank">
                     Google Replica
                 </a>
-
-                
             </div>
         </div>
-
-
     </section>
 
     <section id="footer">
@@ -125,8 +125,6 @@
         </footer>
     </section>
 
-    <!-- scripts -->
-    
     <script src="script.js"></script>
 </body>
 </html>
