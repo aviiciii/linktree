@@ -19,42 +19,9 @@
     <meta name="twitter:title" content="~ / links">
     <meta name="twitter:description" content="Aviiciii's Linktree">
     <meta name="twitter:image" content="img/og.webp">
-
 </head>
-<body>
-    <script>
-        const allLinks = {
-            socials: {
-                github: "https://github.com/aviiciii",
-                linkedin: "https://www.linkedin.com/in/laavesh/",
-                instagram: "https://www.instagram.com/llvssh/"
-            },
-            portfolio: "https://portfolio.lvsh.qzz.io/",
-            utility: {
-                clipboard: "https://clip.lvsh.qzz.io/",
-                linkShortener: "https://short.lvsh.qzz.io/",
-                qrGenerator: "https://qr.lvsh.qzz.io/",
-                notepad: "https://note.lvsh.qzz.io/"
-            },
-            pages: {
-                firstWebpage: "https://pages.lvsh.qzz.io/",
-                googleReplica: "https://aviiciii.github.io/google_search/"
-            }
-        };
 
-        document.addEventListener('DOMContentLoaded', () => {
-            document.getElementById('github-link').href = allLinks.socials.github;
-            document.getElementById('linkedin-link').href = allLinks.socials.linkedin;
-            document.getElementById('instagram-link').href = allLinks.socials.instagram;
-            document.getElementById('portfolio-link').href = allLinks.portfolio;
-            document.getElementById('clipboard-link').href = allLinks.utility.clipboard;
-            document.getElementById('shortener-link').href = allLinks.utility.linkShortener;
-            document.getElementById('qr-link').href = allLinks.utility.qrGenerator;
-            document.getElementById('notepad-link').href = allLinks.utility.notepad;
-            document.getElementById('webpage-link').href = allLinks.pages.firstWebpage;
-            document.getElementById('google-replica-link').href = allLinks.pages.googleReplica;
-        });
-    </script>
+<body>
     <section id="about" class="about">
         <div class="logo">
             <img class="logo" src="img/logo.webp" alt="logo">
@@ -63,73 +30,12 @@
             <h1>aviiciii</h1>
         </div>
         <div class="description">
-            <p>Software Dev</p>
+            <p>Software Engineer</p>
         </div>
-        <div class="socials">
-            <ul class="socials-ul">
-                <li class="socials-li">
-                    <a id="github-link" class="socials-a" href="#" target="_blank">
-                        <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/github--v1.png" alt="github--v1"/>
-                    </a>
-                </li>
-                 
-                <li class="socials-li">
-                    <a id="linkedin-link" class="socials-a" href="#" target="_blank">
-                        <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/linkedin-2--v1.png" alt="linkedin--v1"/>
-                    </a>
-                </li>
-
-                <li class="socials-li">
-                    <a id="instagram-link" class="socials-a" href="#" target="_blank">
-                        <img class="socials-img" width="50" height="50" src="https://img.icons8.com/ios/50/instagram.png" alt="instagram-new--v1"/>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div id="socials" class="socials"></div>
     </section>
 
-    <section id="links">
-
-        <div class="link-container">
-            <div class="link-list">
-                <a id="portfolio-link" class="link-a" href="#" target="_blank">
-                    My Portfolio
-                </a>
-            </div>
-        </div>
-        <div class="link-container">
-            <div class="link-header">
-                <h2>Utility</h2>
-            </div>
-            <div class="link-list">
-                <a id="clipboard-link" class="link-a" href="#" target="_blank">
-                    Clipboard
-                </a>
-                <a id="shortener-link" class="link-a" href="#" target="_blank">
-                    Link Shortener
-                </a>
-                <a id="qr-link" class="link-a" href="#" target="_blank">
-                    QR Generator
-                </a>
-                <a id="notepad-link" class="link-a" href="#" target="_blank">
-                    Notepad
-                </a>
-            </div>
-        </div>
-        <div class="link-container">
-            <div class="link-header">
-                <h2>Pages</h2>
-            </div>
-            <div class="link-list">
-                <a id="webpage-link" class="link-a" href="#" target="_blank">
-                    First Webpage
-                </a>
-                <a id="google-replica-link" class="link-a" href="#" target="_blank">
-                    Google Replica
-                </a>
-            </div>
-        </div>
-    </section>
+    <section id="links"></section>
 
     <section id="footer">
         <footer> 
