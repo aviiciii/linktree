@@ -17,7 +17,8 @@
     {
       "header": "Projects",
       "links": [
-        { "id": "eventopia", "name": "Eventopia", "url": "https://eventopia.in/" }
+        { "id": "eventopia", "name": "Eventopia", "url": "https://eventopia.in/" },
+        { "id": "redanelevators", "name": "Redan Elevators", "url": "https://www.redanelevators.com/" }
       ]
     },
     {
