@@ -24,6 +24,8 @@
     {
       "header": "Utility",
       "links": [
+        { "id": "homelab-website", "name": "Homelab Dashboard", "url": "https://home.lvsh.qzz.io/" },
+
         { "id": "clipboard-link", "name": "Clipboard", "url": "https://clip.lvsh.qzz.io/" },
         { "id": "shortener-link", "name": "Link Shortener", "url": "https://short.lvsh.qzz.io/" },
         { "id": "qr-link", "name": "QR Generator", "url": "https://qr.lvsh.qzz.io/" },
@@ -33,7 +35,7 @@
     {
       "header": "Pages",
       "links": [
-        { "id": "webpage-link", "name": "First Webpage", "url": "https://pages.lvsh.qzz.io/" },
+        { "id": "webpage-link", "name": "First Webpage", "url": "https://aviiciii.github.io/webpage/" },
         { "id": "google-replica-link", "name": "Google Replica", "url": "https://aviiciii.github.io/google_search/" }
       ]
     }
